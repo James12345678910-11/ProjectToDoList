@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar{
+  width:240px;
+  flex-shrink: 0;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
