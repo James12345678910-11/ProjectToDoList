@@ -10,8 +10,9 @@ body {
 }
 
 .layout {
-  display: flex;
+  display: grid;
   min-height: 100vh;
+  grid-template-columns: 1fr 3fr;
 }
 
 .sidebar{
@@ -20,10 +21,42 @@ body {
   padding: 20px;
 }
 
-.sidebar a {
-  display: block;
-  margin-bottom: 5px;
-  border-radius: 5px;
+h1 {
+  text-align: center;
+}
+
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+.nav-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.side-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar-icon {
+  display: flex;
+  text-align: center;
   padding: 10px;
-  
+  font-size: 34px;
+  border: none;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #6f7780;
 }
