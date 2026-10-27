@@ -1,7 +1,12 @@
+import { Calendar } from 'fullcalendar'
+import classicThemePlugin from 'fullcalendar/themes/classic'
+import dayGridPlugin from 'fullcalendar/daygrid'
+import interactionPlugin from 'fullcalendar/interaction'
 
-import { Calendar } from 'fullcalendar';
-import dayGridPlugin from 'fullcalendar/daygrid';
-import interactionPlugin from 'fullcalendar/interaction';
+import 'fullcalendar/skeleton.css'
+import 'fullcalendar/themes/classic/theme.css'
+import 'fullcalendar/themes/classic/palette.css'
+
 
 export function calendarPage() {
 
