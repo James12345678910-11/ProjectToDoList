@@ -14,7 +14,6 @@ export function calendarPage() {
   sectionDiv.appendChild(contentCal);
   contentDiv.appendChild(sectionDiv);
 
-
   const calendar = new Calendar(contentCal, {
     plugins: [
       dayGridPlugin,
