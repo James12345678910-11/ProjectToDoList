@@ -1,20 +1,16 @@
 import "./style.css";
 
-function activeBtn() {
-  const buttons = document.querySelectorAll("button");
-  buttons.forEach(button => {
-  button.addEventListener('click', () => {
 
-    // Remove active class from all buttons
-    buttons.forEach(button => {
-      button.classList.remove('active');
-    });
+const pages = [
+  notificationsPage,
+  notesPage,
+  todayPage,
+  calendarPage,
+  tasksPage,
+  completedPage,
+];
 
-    // Add active class to clicked button
-    button.classList.add('active');
-  });
-});
-}
+main(pages);
 
 
 
